@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clock-by harsh</title>
+  <style>
+     body{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background: #e5cb39;
+       
+     }
+    #clock-container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       border-radius: 50%;
+       padding-top:20px ;
+       height: 250px;
+       width: 300px;
+       background: #f05270;
+       box-shadow: 10px 10px 10px 4px #5b1cd2;
+    }
+    h1{
+     
+      font-family: Sans-Serif,Verdana;
+      color: white;
+     
+    }
+   #clock{
+     padding-top:5px;
+      font-weight: bold;
+      font-family: Verdana;
+      font-size: 40px;
+      color: #dbbd0c;
+   }
+   #date {
+     color: white;
+     font-family: Times New Roman;
+     font-size: 50px;
+   }
+  </style>
+  
+</head>
+<body>
+
+  <div id="clock-container">
+
+    <h1>Digtal Clock</h1>
+          <div id="date"></div>
+    <div id="clock">00:00:00</div>
+  </div>
+  
+  
+  
+  <script src="index.js"></script>
+</body>
+</html>
